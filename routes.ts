@@ -1,19 +1,21 @@
 import { Router } from "express";
-import { getCustomRepository } from "typeorm";
-import { SettingsRepository } from "./src/repositories/SettingsRepository";
+import { SettingsController } from "./src/controllers/SettingsController";
+import {UsersController} from "./src/controllers/UsersController";
+import {MessagesController} from "./src/controllers/MessagesController";
+
 const routes = Router();
 
-routes.post("/settings", async (request, response) => {
-  const settingsRepository = getCustomRepository(SettingsRepository);
-  const { chat, username } = request.body;
-  const settings = settingsRepository.create({
-    chat,
-    username,
-  });
+//chama as classes no controller
+const settingsController = new SettingsController();
+const usersController = new UsersController();
+const messagesController = new MessagesController();
 
-  await settingsRepository.save(settings);
 
-  return response.json(settings);
-});
+// usa o método create para tratar as requisiçoes
+routes.post("/settings", settingsController.create);
+routes.post("/users", usersController.create);
+routes.post("/messages", messagesController.create);
+routes.get("/messages/:id", messagesController.showByUser);
+
 
 export { routes };
