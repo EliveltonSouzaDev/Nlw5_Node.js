@@ -26,6 +26,8 @@ As seguintes ferramentas foram usadas no projeto até o momento:
 - [Typeorm]()
 - [Typescript]()
 - [Insominia]()
+- [Beekeeper Studio]()
+
 
 
 
