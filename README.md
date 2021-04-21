@@ -3,7 +3,7 @@
 
 Aplicação desenvolvida durante 20/04/20 a 25/04/20 da NLW_5 da Rocketseat na Trilha Node.js
 
-![image](https://img1.gratispng.com/20180806/qvy/kisspng-node-js-scalable-vector-graphics-javascript-clip-a-31-best-node-js-logo-5b67dacf6f92a3.775333971533532879457.jpg)
+![image](https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png)
 
 
 ### Requisitos minímos.
