@@ -14,10 +14,10 @@ body {
   width: 153px;
   height: 56px;
 
-  background: #ffb700;
+  background: #8257e6;
   border-radius: 68px;
   text-align: center;
-  color: rgb(10, 10, 10);
+  color: #fff;
   outline: none;
   border: 0;
 
@@ -45,7 +45,7 @@ body {
   width: 320px;
   height: 56px;
 
-  background: #ffb700;
+  background: #8257e6;
   border-radius: 16px 16px 0px 0px;
 
   display: flex;
@@ -53,7 +53,7 @@ body {
 }
 
 .in_support_header span {
-  color: rgb(10, 10, 10);
+  color: #fff;
   display: flex;
   align-items: center;
 }
@@ -209,9 +209,9 @@ input[type="text"]:focus {
   width: 121px;
   height: 40px;
 
-  background: #ffb700;
+  background: #8257e6;
   border-radius: 4px;
-  color: rgb(10, 10, 10);
+  color: #fff;
   border: none;
   cursor: pointer;
 }
@@ -246,4 +246,100 @@ input[type="text"]:focus {
 .date {
   text-align: right;
   font-size: 1px;
+}
+
+.btn_atd {
+  cursor: pointer;
+  color: #fff;
+  background: #b32a2a;
+  border: none;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.btn_atd:hover {
+  opacity: 0.9;
+}
+
+.admin {
+  border: 1px solid #ededed;
+  margin-top: 5px;
+}
+
+.email {
+  float: left;
+  width: 350px;
+}
+
+.admin_send_message {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin_send_message input {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.admin_send_message button {
+  width: 100px;
+  cursor: pointer;
+}
+
+.admin_list_messages {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.admin_message_admin {
+  width: 300px;
+  background: #e0e0e0;
+  padding: 10px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+#atendimentos {
+  width: 600px;
+}
+
+.admin_message_client {
+  width: 300px;
+  background: #6f5eab;
+  padding: 10px;
+  margin: 10px;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.admin_date {
+  font-size: 10px;
+  color: #fff;
+}
+
+.in_support {
+  background: #8d7aef;
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn_send {
+  background: #1eb363;
+  color: #eee;
+  border: none;
+}
+
+.btn_send:hover {
+  opacity: 0.8;
 }
