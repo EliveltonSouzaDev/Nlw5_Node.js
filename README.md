@@ -7,14 +7,6 @@
  
 
 
-### Requisitos minímos.
-
-- [x] Realizar as 4 funções básicas do CRUD (Create, Read, Update, Delete)
-- [x] Utilizar o Sqlite3
-- [x] Utilizar o superseat Typescript
-- [x] Utilizar migrations
-
-
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas no projeto até o momento:
