@@ -17,6 +17,7 @@ As seguintes ferramentas foram usadas no projeto até o momento:
 - [Sqlite3]()
 - [Typeorm]()
 - [Typescript]()
+- [Websocket]()
 - [Insominia]()
 - [Beekeeper Studio]()
 
